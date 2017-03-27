@@ -1,1 +1,17 @@
+title: phunt
+email: tamphubkdn@gmail.com
+description: I think, therefore I am
+show_downloads: true
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "phunt.vn" # the base hostname & protocol for your site, e.g. http://example.com
+github_username: nguyentamphu
+
+# Build settings
+markdown: kramdown
+# theme: minima
 theme: jekyll-theme-hacker
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
