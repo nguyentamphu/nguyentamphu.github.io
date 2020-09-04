@@ -1,0 +1,53 @@
+.part-1 {
+  position: relative;
+  background-image: url("../img/part-1.jpg");
+  min-height: 400px;
+}
+
+.part-1 .box-text {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(255, 215, 0, 0.41);
+  width: 908px;
+  height: 203px;
+}
+
+.part-1 .box-text .box-content {
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  background: rgba(128, 128, 128, 0.66);
+  width: 450px;
+  height: 160px;
+  text-align: center;
+  color: #fff;
+}
+
+.part-1 .box-text .box-content .name {
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.part-1 .box-text .box-content .introduce {
+  font-size: 1.5em;
+}
+
+.part-1 .box-text .box-content .social {
+  margin-top: 15px;
+}
+
+.part-1 .box-text .box-content .social i {
+  margin: 0px 8px;
+  font-size: 1.5em;
+}
+
+.part-1 .box-text .box-content .social a {
+  color: #fff;
+}
+
+.typed-cursor {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin-left: 5px;
+}
