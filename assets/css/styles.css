@@ -1,23 +1,48 @@
+/* Part 1 */
+i#ruby {
+  color: rgb(50, 226, 255);
+}
+
 .part-1 {
   position: relative;
-  background-image: url("../img/part-1.jpg");
-  min-height: 400px;
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-1::before {
+  content: "";
+  /*background-image: url("../img/part-1.jpg");*/
+  /*background-image: url("../img/bg.jpeg");*/
+  background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.4), rgba(250, 120, 120, 0.25)), url("../img/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.85;
 }
 
 .part-1 .box-text {
   position: absolute;
-  top: 50%; left: 50%;
+  top: 40%; left: 50%;
   transform: translate(-50%,-50%);
-  background: rgba(255, 215, 0, 0.41);
-  width: 908px;
+  background: rgba(255, 255, 255, 0.02);
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);*/
+  width: 100%;
   height: 203px;
 }
 
 .part-1 .box-text .box-content {
+  /*background: rgba(128, 128, 128, 0.66);*/
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
-  background: rgba(128, 128, 128, 0.66);
   width: 450px;
   height: 160px;
   text-align: center;
@@ -50,4 +75,78 @@
   font-size: 1.5rem;
   font-weight: 100;
   margin-left: 5px;
+}
+
+/* Part 2 */
+.part-2 {
+  position: relative;
+  min-height: 700px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.part-2::before {
+  content: "";
+  background: black;
+  /*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.8) 100%);*/
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  /*opacity: 0.75;*/
+}
+
+.part-2 .box-content {
+  min-height: 500px;
+  /*background: gray;*/
+}
+
+.part-2 .col-6.text-right {
+  padding-left: 100px;
+}
+
+.part-2 .col-6.text-left {
+  padding-right: 100px;
+}
+
+.part-2 .box-content .avatar img {
+  max-height: 500px;
+  min-width: 400px;
+  margin-right: 30px;
+  /*border: 4px dotted blue;*/
+  /*background: gold;*/
+}
+
+.part-2 .box-content .information {
+  height: 450px;
+  width: auto;
+  padding: 20px;
+  color: #fff;
+  /*background: rgb(178, 191, 242);*/
+}
+
+.part-2 .box-content .information .about-me {
+  padding-left: 10px;
+  font-size: 1.5em;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5))
+}
+
+.part-2 .box-content .information .about-me-detail {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.part-2 .box-content .information .sub-info .row {
+  margin: 10px 0px;
+}
+
+.part-2 .box-content .information .sub-info .row .col-4 {
+  padding-left: 0px !important;
+  font-size: 1.2em;
+  font-weight: bold;
+  max-width: 17.33%;
 }
