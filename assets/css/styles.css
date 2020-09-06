@@ -14,7 +14,7 @@ i#ruby {
 
 .part-1::before {
   content: "";
-  background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.4), rgba(250, 120, 120, 0.25)), url("../img/bg.jpeg");
+  background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.4), rgba(250, 120, 120, 0.25)), url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -37,7 +37,6 @@ i#ruby {
 }
 
 .part-1 .box-text .box-content {
-  /*background: rgba(128, 128, 128, 0.66);*/
   position: absolute;
   top: 50%; left: 50%;
   transform: translate(-50%,-50%);
@@ -53,6 +52,7 @@ i#ruby {
 }
 
 .part-1 .box-text .box-content .introduce {
+  font-family: 'Pacifico', cursive;
   font-size: 1.5em;
 }
 
@@ -107,6 +107,7 @@ i#ruby {
 
 .part-2 .col-6.text-left {
   padding-right: 100px;
+  display: inline;
 }
 
 .part-2 .box-content .avatar img {

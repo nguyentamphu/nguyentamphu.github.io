@@ -1,0 +1,89 @@
+@media (max-width: 414px) {
+  .part-1 {
+    min-height: 750px;
+  }
+
+  .part-1::before {
+    background-image: linear-gradient(315deg, rgba(0, 0, 0, 0.4), rgba(250, 120, 120, 0.25)), url("../img/bg_sp.jpg");
+  }
+
+  .part-1 .box-text {
+    top: 50%; left: 50%;
+  }
+
+  .part-1 .box-text .box-content {
+    padding: 0px 30px;
+  }
+
+  .part-1 .box-text .box-content .name {
+    font-size: 2.5em;
+  }
+
+  .part-1 .box-text .box-content .social {
+    margin-top: 35px;
+  }
+
+  .part-1 .box-text .box-content .social i {
+    margin: 0px 15px;
+    font-size: 2em;
+  }
+
+  .part-1 .box-text .box-content .introduce {
+    color: rgba(0, 0, 0, 0.63)
+  }
+
+  /*part-2*/
+  .part-2 {
+    min-height: 700px;
+  }
+
+  .part-2 .row {
+    display: grid;
+  }
+
+  .part-2 .col-6 {
+    padding-right: unset;
+    max-width: 100%;
+  }
+
+  .part-2 .col-8 {
+    padding-left: unset;
+    max-width: 100%;
+  }
+
+  .part-2 .col-6.text-right {
+    padding-left: 0px;
+    max-width: 100%;
+  }
+
+  .part-2 .col-6.text-left {
+    padding: 10px 20px
+  }
+
+  .part-2 .box-content .avatar {
+    text-align: center;
+    margin: 50px 0px;
+  }
+
+  .part-2 .box-content .avatar img {
+    max-height: 400px;
+    max-width: 300px;
+    min-width: unset;
+    margin-right: 30px;
+    object-fit: cover;
+    margin-right: 0px;
+  }
+
+  .part-2 .box-content .information {
+    display: inline;
+  }
+
+  .part-2 .box-content .information .about-me-detail {
+    /*padding: 10px 10px;*/
+    text-align: justify;
+  }
+
+  .part-2 .box-content .information .sub-info .row .col-4 {
+    max-width: 50%;
+  }
+}
